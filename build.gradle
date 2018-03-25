@@ -18,11 +18,11 @@ buildscript {
     }
 
     rootProject.ext.versions = [
-            kotlin: '1.1.4'
+        kotlin: '1.2.21'
     ]
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.0'
+        classpath 'com.android.tools.build:gradle:3.0.1'
         classpath 'com.google.gms:google-services:3.0.0'
         classpath 'com.getkeepsafe.dexcount:dexcount-gradle-plugin:0.5.6'
         classpath 'net.ltgt.gradle:gradle-errorprone-plugin:0.0.11'
@@ -54,7 +54,7 @@ allprojects {
 ext {
     // POM file
     GROUP = "com.nytimes.android"
-    VERSION_NAME = "3.0.0-SNAPSHOT"
+    VERSION_NAME = "3.0.2-SNAPSHOT"
     POM_PACKAGING = "pom"
     POM_DESCRIPTION = "Store3 is built with RxJava2"
 

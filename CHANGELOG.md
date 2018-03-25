@@ -3,6 +3,29 @@ Change Log
 
 The change log for Store version 1.x can be found [here](https://github.com/NYTimes/Store/blob/develop/CHANGELOG.md).
 
+Version 3.0.1 *(2018-03-20)*
+----------------------------
+
+**Bug Fixes and Stability Improvements**
+
+* (#311) Update Kotlin & AGP versions
+* (#314) Fix issues occured from RxJava1 dependency
+
+Version 3.0.0 *(2018-02-01)*
+----------------------------
+
+**New Features**
+
+* (#275) Add ParsingFetcher that wraps Raw type Parser and Fetcher
+
+**Bug Fixes and Stability Improvements**
+
+* (#267) Kotlin 1.1.4 for store-kotlin 
+* (#290) Remove @Experimental from store-kotlin API
+* (#283) Update build tools to 26.0.2
+* (#259, #261, #272, #289, #303) README + documentation updates
+* (#310) Sample app fixes
+
 Version 3.0.0-beta *(2017-07-26)*
 ----------------------------
 
